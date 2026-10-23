@@ -24,7 +24,11 @@ public class Calculadora {
 
             switch (operacion) {
                 case 1 -> {
+<<<<<<< HEAD
                     //Correccion del bug se la suma
+=======
+                     // Comentario distinto desde feature
+>>>>>>> feature-multiplicacion
                     resultado = num1 + num2;
                     System.out.println("Resultado: " + num1 + " + " + num2 + " = " + resultado);
                 }
