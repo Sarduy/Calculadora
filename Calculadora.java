@@ -24,6 +24,7 @@ public class Calculadora {
 
             switch (operacion) {
                 case 1 -> {
+                    //Correccion del bug se la suma
                     resultado = num1 + num2;
                     System.out.println("Resultado: " + num1 + " + " + num2 + " = " + resultado);
                 }
@@ -42,9 +43,15 @@ public class Calculadora {
                     } else {
                         System.out.println("Error: No se puede dividir entre cero.");
                     }
+                
+                    
+                
                 }
                 default -> System.out.println("Opción no válida.");
             }
         } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta "scanner.close()"
     }
+
+    public static int multiplicar(int a, int b) { return a * b; }
+
 }
