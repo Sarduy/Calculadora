@@ -24,6 +24,7 @@ public class Calculadora {
 
             switch (operacion) {
                 case 1 -> {
+                     // Comentario distinto desde feature
                     resultado = num1 + num2;
                     System.out.println("Resultado: " + num1 + " + " + num2 + " = " + resultado);
                 }
